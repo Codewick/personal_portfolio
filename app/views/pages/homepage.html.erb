@@ -1,0 +1,232 @@
+
+
+    <div class= "bg-color">
+      <div class="container">
+          <header>
+            <div class="img_avatar">
+              <%= image_tag("me.png", height: '180px', width: '180px') %>
+              <h2 class="cursive">Sakshi Gupta</h4>
+              <h5 class="intro-text">Learning to be a Full Stack developer<h5>
+            </div>
+
+            <nav class="nav nav-pills flex-column flex-sm-row justify-content-center cursive menu">
+              <a class="flex-sm-fill text-sm-center nav-link nav-colour" href="#about">About</a>
+              <a class="flex-sm-fill text-sm-center nav-link nav-colour" href="#work">Work</a>
+              <a class="flex-sm-fill text-sm-center nav-link nav-colour" href="#skills">Skills</a>
+              <a class="flex-sm-fill text-sm-center nav-link nav-colour" href="#">Community</a>
+              <a class="flex-sm-fill text-sm-center nav-link nav-colour" href="#contact">Contact</a>
+            </nav>
+            <div class="glyph-center">
+               <a href="#about">
+                 <span class="glyphicon glyphicon-chevron-down bounce arrow-properties text-center"></span>
+               </a>
+             </div>
+          </header>
+        </br>
+        <hr>
+          <div class="header-buffer" id="about"></div>
+          <div class="heading">
+            <h1>About me</h1>
+          </div>
+          <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 centered">
+                  <p><strong>Happy, self-motivated, and passionate about work and life.</strong></p>
+                  <p>I am a full stack developer with skills in html, css, ruby on rails, python and go.
+                    I'm also a really good learner and can pick up things very quickly.
+                    If you don't work in these languages I'd still love to see if we can work together.</p>
+                  <p>I am community minded and love attending and speaking at meetups and conferences.
+                    Since moving to Sydney last year I've been really supported by the Sydney Women in Tech community,
+                    and am always looking for opportunities to give back.</p>
+                  <p>I work with non-profits and small businesses on web design, content management and email.
+                    I communicate closely with clients/teams to understand project requirements and suggest best solutions.
+                    I create graphics, code site updates, design and code email, and brainstorm..</p>
+                  <p>I believe in leading an active and healthy lifestyle. A few of my favorite activities’
+                    include practicing yoga and swimming. I am always looking to learn and explore.</p>
+                </div>
+              </div>
+          </div>
+
+          <hr>
+
+          <div class="header-buffer" id="work"></div>
+          <div class="heading">
+            <h1>Work</h1>
+          </div>
+
+
+          <div class="container-fluid work-section">
+            <div class="project-card">
+
+
+              <div class="image-container">
+
+                <!-- Trigger the Modal -->
+                  <%= image_tag("tokyo_grey.png", class: "portfolio-img", id: "myImg", alt: "Tokyo alympics") %>
+
+                <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <span class="close"></span>
+
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+
+              </div>
+
+              <h5>Tokyo Olympics</h5>
+              <p class="card-text">The terminal application serves coding humour depending on the type of audience selected.</p>
+
+            </div>
+
+          <div class="project-card">
+            <div class="image-container">
+
+              <%= image_tag("code_j_cyan.png", class: "portfolio-img", id: "myImg", alt: "Code Juker") %>
+              <!-- The Modal -->
+                  <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                  </div>
+
+            </div>
+            <div>
+                <h5>Code Joker</h5>
+                <p class="card-text">The terminal application serves coding humour depending on the type of audience selected.</p>
+
+          </div>
+          </div>
+
+          <div class="project-card">
+            <div class="image-container">
+
+              <%= image_tag("portfolio.png", class: "portfolio-img", id: "myImg", alt: "Portfolio") %>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+              </div>
+
+            </div>
+            <h5>this.portfolio!</h5>
+            <p class="card-text">The terminal application serves coding humour depending on the type of audience selected.</p>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="header-buffer" id="skills"></div>
+          <div class="heading">
+            <h1>Skills</h1>
+          </div>
+
+      <div class="skills">
+        <div class="skills-wrap">
+          <div class="skills-y">
+            <ul>
+
+              <li>Expert</li>
+              <li>Advanced</li>
+              <li>Intermediate</li>
+              <li>Novice</li>
+            </ul>
+          </div>
+          <div class="skills-bars">
+            <ul>
+              <li class="skills-bar--html"></li>
+              <li class="skills-bar--css"></li>
+              <li class="skills-bar--js"></li>
+              <li class="skills-bar--php"></li>
+              <li class="skills-bar--design"></li>
+              <li class="skills-bar--random"></li>
+            </ul>
+          </div>
+          <div class="skills-x">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>Ruby</li>
+              <li>Rails</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+          <div class="skills-mobile">
+
+            <ul>
+              <li><span class="html5"></span><em>HTML 5</em></li>
+              <li><span class="css3"></span><em>CSS 3</em></li>
+              <li><span class="jquery"></span><em>jQuery</em></li>
+              <li><span class="photoshop"></span><em>Photoshop</em></li>
+            </ul>
+          </div>
+
+    </div>
+
+    <hr>
+
+    <div class="header-buffer" id="contact"></div>
+    <div class="heading">
+      <h1>Contact</h1>
+    </div>
+    <div class="contact-text">
+      <p>Check out my LinkedIn page or fill out the form below to send me a message.</p>
+    </div>
+    <div class="container form-size">
+      <div id="form_sample"></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="hr"></div>
+  </div>
+
+  <footer class="footer-section">
+
+      <ul>
+        <li>
+          <a href="https://github.com/Codewick">
+            <%= image_tag("git.png") %>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/">
+            <%= image_tag("linkedin-round.svg", height: '25px', width: '25px') %>
+          </a>
+        </ul>
+
+  </footer>
+
+
+  <script>
+  // Get the modal
+
+  var modal = document.getElementById('myModal');
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+  </script>
