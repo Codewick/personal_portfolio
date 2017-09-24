@@ -1,24 +1,7 @@
-# README
+Personal portfolio website using responsive design.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Live version can be viewed at https://portfolio-sakshi.herokuapp.com/
 
-Things you may want to cover:
+Tech Stack
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Built with:  HTML, CSS, JavaScript and jQuery.
